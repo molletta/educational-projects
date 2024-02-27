@@ -1,0 +1,14 @@
+@mixin btn
+    border-radius: 4px
+    border: none
+    background: linear-gradient(0deg, $blue_color 0%, #4CE2FF 100%)
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset
+    color: #FFF
+    text-align: center
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+    text-transform: uppercase
+    font-weight: 400
+    @media (hover:hover)
+        &:hover
+            background: none
+            background-color: $blue_color
